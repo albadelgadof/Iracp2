@@ -82,7 +82,7 @@ var room = prompt('Enter room name:');
 var urlServer = location.origin;
 console.log("socket.io client connecting to server ", urlServer );
 // Connect to signalling server
-var socket = io.connect("52.205.120.152");
+var socket = io.connect(urlServer);
 
 // Send 'Create or join' message to singnalling server
 if (room !== '') {
