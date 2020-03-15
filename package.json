@@ -1,0 +1,16 @@
+{
+  "name": "practicairac",
+  "version": "1.0.0",
+  "description": "",
+  "main": "node_modules/node-static/examples/file-server.js",
+  "scripts": {
+    "server": "node ./node_modules/node-static/examples/file-server.js",
+    "start": "node ./cap5/completeNodeServerWithDataChannel.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-static": "^0.7.11",
+    "socket.io": "^2.2.0"
+  }
+}
